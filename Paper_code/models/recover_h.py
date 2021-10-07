@@ -95,7 +95,7 @@ class RecoverH:
             self.h_energy_bal_TC()
             self.u = dft.Correlations(self.T_TC_trim, self.T_inf[self.idx_low:self.idx_high],
                                       self.D_TC).inverse_sphere_correlation(self.h_TC)
-
+          
             self.h_f = dft.Correlations(self.T_DFT_front[self.idx_low:self.idx_high],
                                         T_eval[self.idx_low:self.idx_high],
                                         self.L_ch_DFT).plate_correlation(self.u)[0]

@@ -154,9 +154,7 @@ class ForwardModel():
             self.temperature_DFT[j + 1, 0] = self.temperature_DFT[j + 1, 1] ** 4
             self.temperature_DFT[j + 1, -1] = self.temperature_DFT[j + 1, -2] ** 4
 
-            B_matrix, D_matrix = self.create_matrix_TC(h_TC, self.A_TC, self.alpha_TC, self.eps_TC, self.C_TC,
-                                                       self.V_TC, self.q_inc[j], self.T_inf[j], self.T_sur[j],
-                                                       self.rho_TC)
+            B_matrix, D_matrix = self.create_matrix_TC(h_TC,self.q_inc[j], self.T_inf[j], self.T_sur[j])
 
             dTdt_TC = B_matrix @ self.temperature_TC[:, j] + D_matrix
             self.temperature_TC[0, j + 1] = self.temperature_TC[0, j] + dTdt_TC * delta_t

@@ -6,5 +6,5 @@ from .forward_model import *
 from .dft_properties import *
 from .heat_transfer_coefficients import *
 from .correlations import *
-from .recover_h_tophat import *
-from .recover_h_transient import *
+from .recover_h import *
+
