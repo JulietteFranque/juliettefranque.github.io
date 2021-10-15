@@ -23,6 +23,8 @@ social:
 navigation: # Navigation links
   - {name: 'Home', link: '/'}
   - {name: 'About', link: '/about'}
+- {name: 'Projects', link: '/projects'}
+- {name: 'Other', link:'/other'}
   - {name: 'Contact', link: '/contact'}
 
 tagline: >
