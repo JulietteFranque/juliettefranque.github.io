@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 title: Juliette Franqueville # your site title
-author: GitHub User # You :P
+author: juliettefranque # You :P
 description: > # Meta description of Homepage
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -10,14 +10,10 @@ url: "https://juliettefranque.github.io/" # the base hostname & protocol for you
 
 # SEO PLUGIN
 social:
-  name: Your Name
+  name: Juliette Franqueville
   links:
-    - https://twitter.com/BenBalter
-    - https://www.facebook.com/ben.balter
-    - https://www.linkedin.com/in/BenBalter
-    - https://plus.google.com/+BenBalter
-    - https://github.com/benbalter
-    - https://keybase.io/benbalter
+    - https://www.linkedin.com/in/juliette-franqueville-402a6a157/
+    - https://github.com/juliettefranque
 
 # THEME SETTINGS
 navigation: # Navigation links
@@ -32,11 +28,11 @@ tagline: >
 
 hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
-email: your-email@domain.com # email for form submission
+email: juliette.franqueville@utexas.edu # email for form submission
 
-twitter_username: jan_czizikow # replace with your_twitter_username or comment to remove link from footer
-github_username:  janczizikow # replace with your_github_username or comment to remove link from footer
-instagram_username: shanlongjj # replace with your_instagram_username or comment to remove link from footer
+#twitter_username: jan_czizikow # replace with your_twitter_username or comment to remove link from footer
+github_username:  juliettefranque # replace with your_github_username or comment to remove link from footer
+#instagram_username: shanlongjj # replace with your_instagram_username or comment to remove link from footer
 
 disqus:
   shortname: janczizikow # to enable comments replace with your_disqus_shortname
